@@ -10,7 +10,7 @@ public class TicTacToeGame {
 	
 	public static void displayGameBoard() {
 		
-		
+		System.out.println("--GAME BOARD--");
         System.out.println(" " + 1 + " | "
                            + 2 + " | " + 3
                            + " ");
@@ -22,6 +22,8 @@ public class TicTacToeGame {
         System.out.println(" " + 7 + " | "
                            + 8 + " | " + 9
                            + "  ");
+        
+        System.out.println();
 	}
 	
 	public static void chooseCharacterToPlay() {
